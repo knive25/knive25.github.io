@@ -1,0 +1,377 @@
+@import"../fonts/stylesheet.css";
+nav{
+    min-height: 80px;
+    background: #fff;
+}
+.num a{
+    font-size: 16px;
+    color: #212121;
+    text-decoration: none;
+}
+.num{
+    padding: 7px 36px;
+    margin-bottom: 10px;
+    margin-top: 21px;
+    width: 211px;
+    height: 37px;
+}
+nav .logo{
+    margin-top: 25px;
+}
+.num:hover{
+    background: #ffd200;
+    border-radius: 9px;
+    
+}
+.num a:hover{
+    border-bottom: 2px dashed #212121;
+}
+header{
+    min-height: 567px;
+    background: url('../img/bg-header.jpg') no-repeat center center ;
+    background-size: cover;
+    padding-top: 54px;
+}
+header .header-title{
+    font-size: 40px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+header .header-title span{
+    font-size: 60px;
+}
+header .header-subtitle{
+    font-size: 24px;
+}
+header .header-btn{
+    margin-top: 70px;
+    border: none;
+    outline: none;
+    padding: 12px 34px;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #fff;
+    background: #e11a27;
+    border-radius: 9px;
+    width: 377px;
+    height: 66px;
+}
+button{
+outline: none;
+padding: 12px 34px;
+text-transform: uppercase;
+font-size: 26px;
+color: #fff;
+background: #e11a27;
+border-radius: 9px;
+transition: 0.6s;
+cursor: pointer;
+border: 1px solid transparent;
+}
+button:hover{
+    background: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.option{
+    min-height: 362px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+}
+.option h2{
+    font-size: 24px;
+    width: 140px;
+    margin-top: 25px;
+}
+
+.option-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 5px solid #ffd200;
+    width: 139px;
+    height: 139px;
+    position: relative;
+    background: #fff;
+    z-index: 2;
+}
+.line{
+    position: absolute;
+    right: -142px;
+}
+.advan{
+    background: #f3f0e7; 
+    min-height: 816px;
+    padding: 100px 0;
+}
+.advan h2{
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.advan h2 span{
+    font-size: 60px;
+}
+.advan-subtitle{
+    font-size: 16px;
+    margin-top: 25px;
+}
+.advan-card{
+    margin-top: 67px;
+}
+.advan-title{
+    margin-top: 24px;
+    font-weight: 400;
+}
+.advan-btn{
+    margin-top: 60px;
+}
+.sol{
+    padding: 100px 0;
+    min-height: 729px;
+}
+.sol h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.sol h2 span{
+    font-size: 60px;
+}
+.hidden{
+    visibility: hidden;
+}
+.book{
+    min-height: 419px;
+    width: 313px;
+    border: 6px solid #ffd200;
+    border-radius: 8px;
+}
+.best-top{
+    min-height: 419px;
+    width: 313px;
+    border: 6px solid #ffd200;
+    border-radius: 8px;
+}
+.book-title{
+    height: 116px;
+    width:100%;
+    background: #ffd200;
+    padding-left: 55px;
+    padding-top: 35px;
+    text-transform: uppercase;
+}
+.book-title h3{
+    font-size: 27px;
+    font-weight: 400;
+}
+.book-title span{
+    font-size: 36px;
+}
+.best{
+    background: url('../img/best.png')no-repeat;
+    background-position: 75px 39px;
+    position: relative;
+}
+.best h6{
+    margin-top: 43px;
+    margin-left: 104px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #e11a27;
+    position: absolute;
+    font-weight: bold;
+}
+
+.book-sp ul{
+ list-style: url('../img/check.png');
+ margin-top: 20px;
+margin-left: 12px;
+line-height: 30px;
+}
+.book{
+    margin-top: 61px;
+}
+.book-subtitle{
+    height: 51px;
+    width: 100%;
+    background: #ffd200;
+    text-align: center;
+    padding-top: 12px;
+}
+.book-subtitle a{
+    color: #000;
+    font-size: 21px;
+    font-weight: 500;
+}
+.book-subtitle a:hover{
+    text-decoration: none;
+}
+.book-subtitle span{
+    font-weight: 400;
+}
+.book h1{
+    font-size: 60px;
+    margin-left: 90px;
+    margin-bottom: 15px;
+    
+}
+.best-top h1{
+    font-size: 60px;
+    margin-left: 90px;
+    margin-bottom: 15px;
+    
+}
+.test{
+    background: url('../img/bg-book.png');
+    min-height: 767px;
+}
+.test h3{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.test h3 span {
+    font-weight: 500;
+    font-size: 60px;
+
+}
+.test-img{
+    display: flex;
+    margin-top: 30px;
+}
+.test-author{
+    margin-left: 24px;
+    margin-top: 50px;
+}
+.test-author h4{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.test-author h4 span{
+    font-size: 30px;
+    font-weight: 500;
+}
+.test h5{
+    font-size: 18px;
+}
+.test-text{
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.test-next{
+    margin-top: 20px;
+    margin-right: 30px;
+    text-align: right;
+    background: url('../img/arrow.png')no-repeat;
+    background-position: right center;
+
+}
+.test-next a{
+    font-size: 16px;
+    font-weight: 100;
+    color: #000;
+    margin-right: 32px;
+}
+.test-next a:hover{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.test-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+    
+}
+.end{
+    padding: 100px 0;
+    min-height: 659px;
+}
+.end-card{
+    width: 314px;
+    border-radius: 8px;
+}
+.card-title{
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    background: #ffd200;
+padding-top: 10px;
+border-radius: 8px;
+}
+.card-title h2{
+    font-size: 27px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.card-title span{
+    font-size: 36px;
+}
+.card-text{
+    width: 100%;
+    height: 236px;
+    background: #f7f0e6;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.card-text p{
+    width: 230px;
+    font-size: 16px;
+}
+.end-btn{
+    margin: 0 auto;
+    margin-top: 75px;
+    display: block;
+}
+.card-text h4{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-text ul{
+    font-size: 17px;
+}
+.card-text a{
+    font-size: 16px;
+    color: #e11a27;
+}
+.card-text a span{
+    text-transform: uppercase;
+    font-size: 13px;
+}
+footer{
+    padding: 50px 0;
+    min-height: 377px;
+    background: #ffd200;
+}
+.about a{
+    display: block;
+    color: #000;
+    line-height: 33px;
+    font-size: 17px;
+}
+.social a{
+    display: inline;
+    margin-left: 16px;
+}
+.about{
+    border-top: 1px solid#000;
+    padding-top: 30px;
+}
+.copy{
+    margin-top: 118px;
+}

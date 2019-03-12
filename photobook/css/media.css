@@ -1,0 +1,162 @@
+@media (max-width: 1199.98px) {
+  .book{
+      width: 290px;
+  }
+  .best-top{
+      width: 290px;
+  }
+  .best{
+      background-position: 67px 39px;
+  }
+  .best h6{
+      margin-left: 96px;
+  }
+  .book h1{
+      margin-left: 70px;
+  }
+  .best-top h1{
+      margin-left: 70px;
+  }
+  button{
+      font-size: 21px;
+  }
+  .end-card{
+      width: 300px;
+  }
+  .option{
+      padding-left: 0;
+  }
+
+}
+
+@media (max-width: 991.98px) {
+    .pre{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .line::after{
+        content: none;
+    }
+    .option{
+        padding: 50px 0; 
+    }
+    .line::after{
+        right: -130px;
+    }
+    .line-top{
+        margin-top: 30px;
+    }
+    .option-card{
+        margin: 0 auto;
+    }
+    .option h2{
+        margin: 0 auto;
+    }
+    .option .line-top{
+        margin-top: 30px;
+    }
+    
+}
+
+@media (max-width: 767.98px) {
+  .logo{
+      text-align: center;
+  }
+  .logo img{
+      width: 230px;
+  }
+    .num{
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    header .header-title{
+        font-size: 35px;
+        margin-top: 100px;
+    }
+    header .header-subtitle{
+        font-size: 17px;
+    }
+    header .header-btn{
+        margin-top: 50px;
+        font-size: 21px;
+        width: 340px;
+        height: 60px;
+    }
+    button{
+        margin-top: 50px;
+        font-size: 21px;
+        width: 340px;
+        height: 60px;
+    }
+    .book{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .best-top{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .best{
+        background-position: 170px 29px;
+    }
+    .best h6{
+        margin-left: 197px;
+        margin-top: 30px;
+    }
+    .end-card{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .end{
+        padding: 50px 0;
+    }
+    .about{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .line::after{
+        content: none;
+    }
+
+    .option-card{
+        margin-top: 30px;
+    }
+    .option-card{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .logo img{
+        width: 162px;
+    }
+    header .header-btn{
+        font-size: 15px;
+        width: 250px;
+        height: 50px;
+    }
+    button{
+        font-size: 15px;
+        width: 250px;
+        height: 50px;
+    }
+    .advan h2{
+        font-size: 43px;
+    }
+    .best{
+        background: none;
+    }
+    .best h6{
+        display: none;
+    }
+    .option-card{
+        margin: 0 auto;
+    }
+    .line-not{
+        margin-top: 30px;
+    }
+    .test-btn{
+        margin-bottom: 30px;
+    }
+}
